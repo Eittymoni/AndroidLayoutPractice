@@ -8,7 +8,9 @@ android {
     compileSdk {
         version = release(36)
     }
-
+      buildFeatures{
+          viewBinding = true
+      }
     defaultConfig {
         applicationId = "com.example.layoutpractice"
         minSdk = 24
